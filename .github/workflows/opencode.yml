@@ -27,6 +27,7 @@ jobs:
         uses: anomalyco/opencode/github@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         with:
-          model: zen/qwen3.6-plus-free
+          model: groq/llama-3.3-70b-versatile
           use_github_token: true
