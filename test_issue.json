@@ -1,0 +1,6 @@
+{
+  "title": "Test: Add hello world command",
+  "body": "Please add a `hello` command that prints 'Hello, World!'",
+  "number": 1,
+  "state": "open"
+}

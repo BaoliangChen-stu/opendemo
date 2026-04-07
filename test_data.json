@@ -1,0 +1,10 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "text": "migrated item",
+      "status": "done"
+    }
+  ],
+  "version": 2
+}
