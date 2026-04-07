@@ -22,9 +22,9 @@ jobs:
         uses: actions/checkout@v6
         with:
           fetch-depth: 1
-          persist-credentials: false
 
       - name: Run OpenCode
         uses: anomalyco/opencode/github@latest
         with:
           model: zen/qwen3.6-plus-free
+          github-token: ${{ secrets.GITHUB_TOKEN }}
